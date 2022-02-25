@@ -27,5 +27,11 @@
     "fiber": "^1.0.4",
     "sass": "^1.49.8",
     "sass-loader": "^10.2.1"
-  }
+  },
+  "builds": [
+    {
+      "src": "package.json", 
+      "use": "vercel-sapper"
+    }
+  ]
 }
