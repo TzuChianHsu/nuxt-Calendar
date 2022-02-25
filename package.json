@@ -36,5 +36,8 @@
       "src": "package.json",
       "use": "vercel-sapper"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@nuxtjs/vercel-builder": "^0.22.1"
+  }
 }
