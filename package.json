@@ -1,0 +1,34 @@
+{
+  "name": "Nuxt-plugins-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/interaction": "^5.10.1",
+    "@fullcalendar/list": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
+    "@fullcalendar/vue": "^5.10.1",
+    "@nuxtjs/axios": "^5.12.4",
+    "@nuxtjs/composition-api": "^0.32.0",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.15.6",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nuxt": "^2.14.6",
+    "vue-notification": "^1.3.20"
+  },
+  "devDependencies": {
+    "fiber": "^1.0.4",
+    "sass": "^1.49.8",
+    "sass-loader": "^10.2.1"
+  },
+  "type": "module"
+}
