@@ -9,7 +9,7 @@
     "generate": "nuxt generate"
   },
   "optionalDependencies": {
-    "fsevents": "^1.2.13"
+    "fsevents": "^2.3.2"
   },
   "dependencies": {
     "@fullcalendar/core": "^5.10.1",
