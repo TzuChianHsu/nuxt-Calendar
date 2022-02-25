@@ -36,24 +36,5 @@ export default {
   modules: ["@nuxtjs/axios"],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {
-    vendor: ['moment', 'lodash'],
-    analyze: {
-      analyzerMode: 'static'
-    },
-    postcss: {
-      plugins: {
-        'postcss-custom-properties': false
-      }
-    },
-    plugins: [
-      new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
-    ],
-    /*
-    ** Run ESLINT on save
-    */
-    extend (config, ctx) {
-      // config.resolve.alias['create-api'] = `./create-api-${ctx.isClient ? 'client' : 'server'}.js`
-    }
-  }
+  build: {}
 };
